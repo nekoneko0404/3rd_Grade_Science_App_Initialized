@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>冷蔵庫のドアや、筆箱のふたなど、身の回りのいろいろな場所で使われています。</p>
                         <p>黒い磁石や、銀色の強力な磁石など、いろいろな種類があります。</p>
                     `,
-                    image: 'images/magnets_1_magnets_1763719872716.png',
+                    image: 'images/magnets_1_magnets_1763767863125.png',
                     quizzes: [
                         { q: '磁石が引きつけるものは？', options: ['木', '鉄', 'プラスチック'], answer: 1 },
                         { q: '磁石が使われている場所は？', options: ['冷蔵庫のドア', '木の机', 'ガラスのコップ'], answer: 0 },
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p><strong>つかないもの：</strong> 10円玉（銅）、アルミ缶、プラスチック、木</p>
                         <p>金属（きんぞく）でも、鉄以外はつかないことが多いです。</p>
                     `,
-                    image: 'images/magnets_2_attraction_1763719892488.png',
+                    image: 'images/magnets_2_attraction_1763767880431.png',
                     quizzes: [
                         { q: '磁石につくものはどれ？', options: ['10円玉', 'クリップ', '消しゴム'], answer: 1 },
                         { q: 'アルミ缶は磁石につく？', options: ['つく', 'つかない', '時々つく'], answer: 1 },
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>棒磁石の端っこ（極）は、磁石の力が一番強い場所です。</p>
                         <p>N極は北（North）、S極は南（South）を指す性質があります。</p>
                     `,
-                    image: 'https://placehold.co/600x400/F44336/white?text=N+and+S',
+                    image: 'images/magnets_3_poles_1763767894990.png',
                     quizzes: [
                         { q: '磁石の極はいくつある？', options: ['1つ', '2つ', '3つ'], answer: 1 },
                         { q: 'N極はどの方角を指す？', options: ['東', '西', '北'], answer: 2 },
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p><strong>同じ極同士（NとN、SとS）：</strong> 反発して（しりぞけあって）離れようとします。</p>
                         <p>目に見えない力が働いているのがわかりますね。</p>
                     `,
-                    image: 'https://placehold.co/600x400/F44336/white?text=Repulsion',
+                    image: 'images/magnets_4_interaction_1763767915964.png',
                     quizzes: [
                         { q: 'N極とS極を近づけると？', options: ['くっつく', '反発する', 'なにも起きない'], answer: 0 },
                         { q: 'S極とS極を近づけると？', options: ['くっつく', '反発する', 'なにも起きない'], answer: 1 },
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>黒い粉のようなものがたくさんついてきます。</p>
                         <p>これが「砂鉄（さてつ）」です。砂鉄は細かい鉄の粒なので、磁石にくっつくのです。</p>
                     `,
-                    image: 'https://placehold.co/600x400/F44336/white?text=Iron+Sand',
+                    image: 'images/magnets_5_ironsand_1763767934325.png',
                     quizzes: [
                         { q: '砂鉄は何色？', options: ['赤', '白', '黒'], answer: 2 },
                         { q: '砂鉄の正体は？', options: ['細かい鉄', '細かいプラスチック', '虫のフン'], answer: 0 },
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>日なたと日かげでは、明るさやあたたかさが違います。</p>
                         <p>地面の温度を測って比べてみましょう。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFC107/white?text=Sunlight',
+                    image: 'images/light_1_sunlight_1763768150661.png',
                     quizzes: [
                         { q: '太陽の光のことを何という？', options: ['日光', '月光', '星の光'], answer: 0 },
                         { q: '日なたと日かげ、あたたかいのは？', options: ['日かげ', '日なた', 'どちらも同じ'], answer: 1 },
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>これを「直進（ちょくしん）」といいます。</p>
                         <p>雲の間から光が差しているとき、まっすぐな光の筋が見えることがありますね。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFC107/white?text=Straight+Line',
+                    image: 'images/light_2_straight_1763768171522.png',
                     quizzes: [
                         { q: '光はどのように進む？', options: ['ジグザグに', 'まっすぐに', 'ぐるぐると'], answer: 1 },
                         { q: '光がまっすぐ進むことを何という？', options: ['直進', '後退', '回転'], answer: 0 },
@@ -608,7 +608,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="quiz-question">Q${index + 1}. ${quiz.q}</p>
                     <div class="quiz-options">
                         ${quiz.options.map((opt, i) => `
-                            <button class="quiz-option-btn" onclick="checkAnswer(this, ${index}, ${i}, ${quiz.answer})">${opt}</button>
+                            <button class="quiz-option-btn" data-quiz-index="${index}" data-option-index="${i}" data-correct="${quiz.answer}">${opt}</button>
                         `).join('')}
                     </div>
                     <p class="quiz-result" id="result-${index}"></p>
@@ -620,24 +620,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('back-to-lesson-btn').addEventListener('click', () => renderLessonDetail(topicId, lessonIndex));
 
-        // Expose checkAnswer globally
-        window.checkAnswer = (btn, quizIndex, selected, correct) => {
-            const resultEl = document.getElementById(`result-${quizIndex}`);
-            const buttons = btn.parentElement.querySelectorAll('.quiz-option-btn');
-            buttons.forEach(b => b.disabled = true);
+        // Add event listeners to quiz buttons
+        document.querySelectorAll('.quiz-option-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const quizIndex = parseInt(btn.dataset.quizIndex);
+                const selected = parseInt(btn.dataset.optionIndex);
+                const correct = parseInt(btn.dataset.correct);
+                checkAnswer(btn, quizIndex, selected, correct, quizzes);
+            });
+        });
+    }
 
-            if (selected === correct) {
-                btn.style.backgroundColor = '#4CAF50';
-                btn.style.color = 'white';
-                resultEl.textContent = 'せいかい！🎉';
-                resultEl.style.color = '#4CAF50';
-            } else {
-                btn.style.backgroundColor = '#F44336';
-                btn.style.color = 'white';
-                resultEl.textContent = 'ざんねん... 正解は ' + quizzes[quizIndex].options[correct];
-                resultEl.style.color = '#F44336';
-            }
-        };
+    // Check Answer Logic
+    function checkAnswer(btn, quizIndex, selected, correct, quizzes) {
+        const resultEl = document.getElementById(`result-${quizIndex}`);
+        const buttons = btn.parentElement.querySelectorAll('.quiz-option-btn');
+        buttons.forEach(b => b.disabled = true);
+
+        if (selected === correct) {
+            btn.style.backgroundColor = '#4CAF50';
+            btn.style.color = 'white';
+            resultEl.textContent = 'せいかい！🎉';
+            resultEl.style.color = '#4CAF50';
+        } else {
+            btn.style.backgroundColor = '#F44336';
+            btn.style.color = 'white';
+            resultEl.textContent = 'ざんねん... 正解は ' + quizzes[quizIndex].options[correct];
+            resultEl.style.color = '#F44336';
+        }
     }
 
     // Render Lesson Detail
@@ -678,7 +688,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         topic.lessons.forEach((lesson, index) => {
             html += `
-                <div class="lesson-card" onclick="openLesson('${topicId}', ${index})">
+                <div class="lesson-card" data-topic-id="${topicId}" data-lesson-index="${index}">
                     <h3>📖 ${lesson.title}</h3>
                 </div>
             `;
@@ -689,10 +699,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('back-home-btn').addEventListener('click', renderHome);
 
-        // Expose openLesson globally
-        window.openLesson = (tId, lIdx) => {
-            renderLessonDetail(tId, lIdx);
-        };
+        // Add event listeners to lesson cards
+        document.querySelectorAll('.lesson-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const tId = card.dataset.topicId;
+                const lIdx = parseInt(card.dataset.lessonIndex);
+                renderLessonDetail(tId, lIdx);
+            });
+        });
     }
 
     // Render Home Page
