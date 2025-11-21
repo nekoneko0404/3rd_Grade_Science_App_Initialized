@@ -1,0 +1,216 @@
+:root {
+    /* Nature-inspired Palette */
+    --color-primary: #4CAF50;
+    /* Green */
+    --color-secondary: #FFC107;
+    /* Amber */
+    --color-accent: #2196F3;
+    /* Blue */
+    --color-background: #F0F8FF;
+    /* AliceBlue */
+    --color-text: #333333;
+    --font-main: 'M PLUS Rounded 1c', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Topic Menu Styles */
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.topic-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid #eee;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.topic-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.topic-title {
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+
+/* Content Viewer Styles */
+.back-button {
+    background: none;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: inherit;
+    transition: all 0.2s;
+}
+
+.back-button:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.content-article {
+    text-align: left;
+    animation: fadeIn 0.5s ease;
+}
+
+.content-title {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Quiz Styles */
+.quiz-start-btn {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s;
+    font-family: inherit;
+}
+
+.quiz-start-btn:active {
+    transform: scale(0.95);
+}
+
+.quiz-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.quiz-question {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz-option-btn {
+    padding: 10px;
+    gap: 15px;
+}
+
+.lesson-card {
+    background: white;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lesson-card:hover {
+    background-color: #f9f9f9;
+    transform: translateX(5px);
+    border-color: var(--color-primary);
+}
+
+.lesson-card::after {
+    content: '▶';
+    color: var(--color-primary);
+    font-weight: bold;
+}
