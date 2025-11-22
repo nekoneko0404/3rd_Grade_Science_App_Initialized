@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>これを「反射（はんしゃ）」といいます。</p>
                         <p>鏡を使って日光を跳ね返し、壁に光を当ててみましょう。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFC107/white?text=Reflection',
+                    image: 'images/light_3_reflection.png',
                     quizzes: [
                         { q: '光が鏡に当たって跳ね返ることを何という？', options: ['屈折', '反射', '吸収'], answer: 1 },
                         { q: '鏡で跳ね返した日光はまっすぐ進む？', options: ['進む', '進まない', '消える'], answer: 0 },
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>黒い紙に光を集めると、煙が出て焦げることがあります。</p>
                         <p><strong>注意：</strong> 絶対に虫メガネで太陽を見てはいけません！</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFC107/white?text=Magnifying+Glass',
+                    image: 'images/light_4_magnifying_glass.png',
                     quizzes: [
                         { q: '虫メガネで光を集めると、その場所はどうなる？', options: ['冷たくなる', '熱くなる', '暗くなる'], answer: 1 },
                         { q: '絶対にやってはいけないことは？', options: ['紙に光を当てる', '太陽を見る', '地面を見る'], answer: 1 },
@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>雨上がりに虹が見えるのは、水滴で光が分けられるからです。</p>
                         <p>プリズムという道具を使うと、いつでも虹を作ることができます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFC107/white?text=Rainbow',
+                    image: 'images/light_5_rainbow.png',
                     quizzes: [
                         { q: '虹は何色あると言われている？', options: ['3色', '5色', '7色'], answer: 2 },
                         { q: '虹が見えるのはどんな時？', options: ['雨上がり', '雪の日', '夜'], answer: 0 },
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>乾電池にはプラス（＋）極とマイナス（－）極があります。</p>
                         <p>正しくつなぐことが大切です。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFEB3B/black?text=Light+Bulb',
+                    image: 'images/electricity_1_bulb_battery.png',
                     quizzes: [
                         { q: '豆電球を光らせるのに必要なものは？', options: ['乾電池', '消しゴム', '鉛筆'], answer: 0 },
                         { q: '乾電池の極は？', options: ['上と下', 'プラスとマイナス', '右と左'], answer: 1 },
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>乾電池のプラス極から出て、豆電球を通り、マイナス極に戻る輪っかのようなつながりを「回路（かいろ）」といいます。</p>
                         <p>途中で切れていると、電気は流れません。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFEB3B/black?text=Circuit',
+                    image: 'images/electricity_2_circuit.png',
                     quizzes: [
                         { q: '電気が流れる輪っかのようなつながりを何という？', options: ['道路', '回路', '迷路'], answer: 1 },
                         { q: '回路が途中で切れていると？', options: ['電気が流れない', '電気が強くなる', '爆発する'], answer: 0 },
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>鉄（てつ）、銅（どう）、アルミニウムなどの「金属（きんぞく）」は電気を通します。</p>
                         <p>10円玉やアルミホイル、クリップなどは電気を通します。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFEB3B/black?text=Conductors',
+                    image: 'images/electricity_3_conductors.png',
                     quizzes: [
                         { q: '電気を通すものはどれ？', options: ['木', 'プラスチック', '金属'], answer: 2 },
                         { q: '10円玉は電気を通す？', options: ['通す', '通さない', '時々通す'], answer: 0 },
@@ -420,7 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>木、プラスチック、ガラス、紙、ゴムなどは電気を通しません。</p>
                         <p>電線の周りは、電気が漏れないようにビニール（プラスチック）で覆われています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFEB3B/black?text=Insulators',
+                    image: 'images/electricity_4_insulators.png',
                     quizzes: [
                         { q: '電気を通さないものはどれ？', options: ['鉄の釘', '輪ゴム', '銅線'], answer: 1 },
                         { q: '電線の周りがビニールで覆われているのはなぜ？', options: ['きれいだから', '電気が漏れないように', '重くするため'], answer: 1 },
