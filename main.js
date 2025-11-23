@@ -597,7 +597,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>森の木や、そこに住む動物たちを守ることは、とても大切です。</p>
                         <p>森がなくなると、動物の住処がなくなり、空気も汚れてしまいます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/2196F3/white?text=Goal+15',
+                    image: 'images/sdgs_2_land.png',
                     quizzes: [
                         { q: 'SDGs目標15番のテーマは？', options: ['海の豊かさ', '陸の豊かさ', '宇宙の豊かさ'], answer: 1 },
                         { q: '森がなくなると困ることは？', options: ['動物が住めなくなる', '涼しくなる', '広くなる'], answer: 0 },
@@ -617,7 +617,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>絶滅とは、その種類の生き物が地球から全くいなくなってしまうことです。</p>
                         <p>一度絶滅すると、二度と戻りません。</p>
                     `,
-                    image: 'https://placehold.co/600x400/2196F3/white?text=Endangered',
+                    image: 'images/sdgs_3_endangered.png',
                     quizzes: [
                         { q: '生き物が地球から全くいなくなることを何という？', options: ['冬眠', '絶滅', '引越し'], answer: 1 },
                         { q: '絶滅した生き物はどうなる？', options: ['また生まれる', '二度と戻らない', '隠れているだけ'], answer: 1 },
@@ -637,7 +637,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>プラスチックのゴミは、自然に分解されずにずっと残ります。</p>
                         <p>ゴミは決められた場所に捨てましょう。</p>
                     `,
-                    image: 'https://placehold.co/600x400/2196F3/white?text=No+Littering',
+                    image: 'images/sdgs_4_littering.png',
                     quizzes: [
                         { q: 'ゴミを森に捨てるとどうなる？', options: ['肥料になる', '動物が困る', '森が喜ぶ'], answer: 1 },
                         { q: 'プラスチックのゴミはどうなる？', options: ['すぐ消える', 'ずっと残る', '土になる'], answer: 1 },
@@ -661,7 +661,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </ul>
                         <p>みんなの力が集まれば、地球を守ることができます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/2196F3/white?text=Action',
+                    image: 'images/sdgs_5_action.png',
                     quizzes: [
                         { q: '私たちにできることは？', options: ['紙を無駄にする', 'リサイクルする', '電気をつけっぱなしにする'], answer: 1 },
                         { q: '食べ残しをしないことは良いこと？', options: ['良いこと', '悪いこと', 'どちらでもない'], answer: 0 },
@@ -686,7 +686,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>この星には、水があるかもしれないと言われています。</p>
                         <p>もしかしたら、生き物がいるかもしれませんね。</p>
                     `,
-                    image: 'https://placehold.co/600x400/607D8B/white?text=New+Planet',
+                    image: 'images/news_1_planet.png',
                     quizzes: [
                         { q: '新しく見つかったのは何？', options: ['新しい星', '新しい月', '新しい太陽'], answer: 0 },
                         { q: 'その星にあるかもしれないものは？', options: ['コーラ', '水', 'お菓子'], answer: 1 },
@@ -706,7 +706,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>とても大きな体を持っていたようです。</p>
                         <p>化石を調べると、昔の地球の様子がわかります。</p>
                     `,
-                    image: 'https://placehold.co/600x400/607D8B/white?text=Dinosaur+Fossil',
+                    image: 'images/news_2_dinosaur.png',
                     quizzes: [
                         { q: '見つかったのは何の化石？', options: ['マンモス', '恐竜', '魚'], answer: 1 },
                         { q: '化石から何がわかる？', options: ['明日の天気', '昔の様子', '宝の場所'], answer: 1 },
@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>このロケットは、月へ行くための実験をします。</p>
                         <p>将来は、みんなも宇宙旅行に行けるようになるかもしれません。</p>
                     `,
-                    image: 'https://placehold.co/600x400/607D8B/white?text=Rocket',
+                    image: 'images/news_3_rocket.png',
                     quizzes: [
                         { q: 'ロケットはどこへ行く？', options: ['海の中', '地底', '宇宙'], answer: 2 },
                         { q: '今回のロケットの目的は？', options: ['月へ行く実験', '太陽へ行く実験', '散歩'], answer: 0 },
