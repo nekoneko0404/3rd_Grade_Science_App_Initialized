@@ -441,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>LEDは少ない電気で明るく光り、長持ちします。</p>
                         <p>信号機や家の電気にも使われています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/FFEB3B/black?text=LED',
+                    image: 'images/electricity_5_led.png',
                     quizzes: [
                         { q: '豆電球より少ない電気で光るものは？', options: ['ろうそく', 'LED', '懐中電灯'], answer: 1 },
                         { q: 'LEDの良いところは？', options: ['すぐ切れる', '長持ちする', '熱くなる'], answer: 1 },
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>ダンゴムシやクモは、体が2つに分かれているので、昆虫ではありません。</p>
                         <p>カブトムシやチョウは昆虫です。</p>
                     `,
-                    image: 'https://placehold.co/600x400/795548/white?text=Insects+Body',
+                    image: 'images/insects_1_body.png',
                     quizzes: [
                         { q: '昆虫の体はいくつに分かれている？', options: ['2つ', '3つ', '4つ'], answer: 1 },
                         { q: '昆虫の体の部分は？', options: ['頭・胸・腹', '頭・首・体', '頭・背中・お尻'], answer: 0 },
@@ -488,7 +488,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>足はすべて「胸（むね）」から生えています。</p>
                         <p>頭や腹から足は生えていません。</p>
                     `,
-                    image: 'https://placehold.co/600x400/795548/white?text=6+Legs',
+                    image: 'images/insects_2_legs.png',
                     quizzes: [
                         { q: '昆虫の足は何本？', options: ['4本', '6本', '8本'], answer: 1 },
                         { q: '足はどこから生えている？', options: ['頭', '胸', '腹'], answer: 1 },
@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>このように姿を大きく変えることを「変態（へんたい）」といいます。</p>
                         <p>幼虫は葉っぱを食べ、成虫は花の蜜を吸います。</p>
                     `,
-                    image: 'https://placehold.co/600x400/795548/white?text=Butterfly+Life',
+                    image: 'images/insects_3_butterfly_life.png',
                     quizzes: [
                         { q: 'チョウの幼虫は何を食べる？', options: ['肉', '葉っぱ', '魚'], answer: 1 },
                         { q: 'さなぎになるのはどれ？', options: ['バッタ', 'トンボ', 'チョウ'], answer: 2 },
@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>たまご → 幼虫 → 成虫 という順番で育ちます。</p>
                         <p>幼虫は成虫と似た形をしていますが、羽がまだありません。</p>
                     `,
-                    image: 'https://placehold.co/600x400/795548/white?text=Grasshopper',
+                    image: 'images/insects_4_grasshopper.png',
                     quizzes: [
                         { q: 'バッタはさなぎになる？', options: ['なる', 'ならない', '時々なる'], answer: 1 },
                         { q: 'バッタの幼虫にないものは？', options: ['足', '目', '羽'], answer: 2 },
@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>草むら、土の中、木の上、水の中など。</p>
                         <p>それぞれの場所で、食べ物を見つけたり、敵から隠れたりしています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/795548/white?text=Finding+Insects',
+                    image: 'images/insects_5_habitat.png',
                     quizzes: [
                         { q: 'カブトムシが好きそうな場所は？', options: ['海の中', '木の上', '砂漠'], answer: 1 },
                         { q: '水の中に住む昆虫は？', options: ['ゲンゴロウ', 'アリ', 'チョウ'], answer: 0 },
@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>貧困をなくしたり、環境を守ったりするための約束です。</p>
                         <p>2030年までに達成することを目指しています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/2196F3/white?text=What+is+SDGs',
+                    image: 'images/sdgs_1_goals.png',
                     quizzes: [
                         { q: 'SDGsの目標はいくつある？', options: ['10個', '17個', '100個'], answer: 1 },
                         { q: 'いつまでの達成を目指している？', options: ['2030年', '2050年', '明日まで'], answer: 0 },
