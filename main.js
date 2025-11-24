@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>最初に出てくる葉っぱを「子葉（しよう）」といいます。</p>
                         <p>ホウセンカの子葉は丸い形をしています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/4CAF50/white?text=Sprout',
+                    image: 'images/plants_2_sprout.png',
                     quizzes: [
                         { q: '最初に出てくる葉っぱを何という？', options: ['親葉', '子葉', '孫葉'], answer: 1 },
                         { q: 'ホウセンカの子葉の形は？', options: ['丸い', '細長い', 'ギザギザ'], answer: 0 },
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>葉っぱの形や、つき方をよく見てみましょう。</p>
                         <p>植物によって、葉っぱの形は違います。</p>
                     `,
-                    image: 'https://placehold.co/600x400/4CAF50/white?text=Leaves',
+                    image: 'images/plants_3_leaves.png',
                     quizzes: [
                         { q: '植物が育つと増えるものは？', options: ['葉っぱ', '種', '根っこだけ'], answer: 0 },
                         { q: '葉っぱの形は？', options: ['みんな同じ', '植物によって違う', '毎日変わる'], answer: 1 },
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>ホウセンカは赤やピンク、白などの花が咲きます。</p>
                         <p>ヒマワリは大きな黄色い花が咲きます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/4CAF50/white?text=Flower',
+                    image: 'images/plants_4_flower.png',
                     quizzes: [
                         { q: 'ヒマワリの花の色は？', options: ['赤', '青', '黄色'], answer: 2 },
                         { q: '花が咲くのはいつ頃？', options: ['冬', '夏', '真夜中'], answer: 1 },
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>実の中には、たくさんの種が入っています。</p>
                         <p>この種をまくと、また新しい芽が出ます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/4CAF50/white?text=Seeds',
+                    image: 'images/plants_5_seeds.png',
                     quizzes: [
                         { q: '花が終わると何ができる？', options: ['実', '根っこ', '石'], answer: 0 },
                         { q: '実の中に入っているのは？', options: ['水', '種', '空気'], answer: 1 },
@@ -746,7 +746,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>光が届かない真っ暗な場所でも、生き物は工夫して生きています。</p>
                         <p>体が光る魚などもいます。</p>
                     `,
-                    image: 'https://placehold.co/600x400/607D8B/white?text=Deep+Sea',
+                    image: 'images/news_4_deepsea.png',
                     quizzes: [
                         { q: '海のとても深い場所を何という？', options: ['浅瀬', '深海', '湖'], answer: 1 },
                         { q: '深海はどんな場所？', options: ['明るい', '真っ暗', 'カラフル'], answer: 1 },
@@ -766,7 +766,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>AI（人工知能）を使って、自分で考えて動くことができます。</p>
                         <p>人間とロボットが一緒に暮らす未来が近づいています。</p>
                     `,
-                    image: 'https://placehold.co/600x400/607D8B/white?text=Robot',
+                    image: 'images/news_5_robot.png',
                     quizzes: [
                         { q: '最近増えているのは？', options: ['恐竜', 'ロボット', '宇宙人'], answer: 1 },
                         { q: 'ロボットは何を使って考える？', options: ['AI（人工知能）', '魔法', '勘'], answer: 0 },
